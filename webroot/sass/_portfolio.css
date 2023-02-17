@@ -1,0 +1,57 @@
+/*
+Error: Invalid CSS after "...rder-radius(0) ": expected "{", was "!important;"
+        on line 1596 of portfolio.scss
+
+1591: 			width: 16.60%;
+1592: 		}
+1593: 	}
+1594: 	img {
+1595: 		width: 100%;
+1596: 		.border-radius(0) !important;
+1597: 		padding: 0 1px 1px 0;
+1598: 	}
+1599: 	.overlay {
+1600: 		padding: 0 1px 1px 0;
+1601: 	}
+
+Backtrace:
+portfolio.scss:1596
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/bin/scss:13:in `<top (required)>'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/scss:23:in `load'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/scss:23:in `<main>'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...rder-radius(0) \": expected \"{\", was \"!important;\"\A         on line 1596 of portfolio.scss\A \A 1591: 			width: 16.60%;\A 1592: 		}\A 1593: 	}\A 1594: 	img {\A 1595: 		width: 100%;\A 1596: 		.border-radius(0) !important;\A 1597: 		padding: 0 1px 1px 0;\A 1598: 	}\A 1599: 	.overlay {\A 1600: 		padding: 0 1px 1px 0;\A 1601: 	}"; }

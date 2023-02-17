@@ -1,0 +1,52 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Canvas
+    Theme URI: http://themes.semicolonweb.com/html/canvas
+    Description: The Multi-Purpose Template
+    Author: SemiColonWeb
+    Author URI: http://themeforest.net/user/semicolonweb
+    Version: 4.1
+
+    LESS Stylesheet
+
+-----------------------------------------------------------------------------------*/
+
+
+// Initialize
+@import "_variables.scss";
+@import "_mixins.scss";
+
+
+// Core CSS
+@import "_typography.scss";
+@import "_helpers.scss";
+@import "_layouts.scss";
+
+
+// Content Blocks
+@import "_topbar.scss";
+@import "_header.scss";
+@import "_sliders.scss";
+@import "_pagetitle.scss";
+@import "_content.scss";
+@import "_portfolio.scss";
+@import "_blog.scss";
+@import "_shop.scss";
+@import "_events.scss";
+
+
+// Shortcodes
+@import "_shortcodes.scss";
+
+
+// Footer
+@import "_footer.scss";
+
+
+// Widgets
+@import "_widgets.scss";
+
+
+// Extras
+@import "_extras.scss";
+

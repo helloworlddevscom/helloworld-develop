@@ -1,0 +1,53 @@
+/*
+Error: Invalid CSS after "...rder-radius(0) ": expected "{", was "!important; }"
+        on line 120 of helpers.scss
+
+115: 
+116: .notopborder { border-top: none !important; }
+117: 
+118: .nobottomborder { border-bottom: none !important; }
+119: 
+120: .noradius { .border-radius(0) !important; }
+121: 
+122: .col-padding { padding: 60px; }
+123: 
+124: .nopadding { padding: 0 !important; }
+125: 
+
+Backtrace:
+helpers.scss:120
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/bin/scss:13:in `<top (required)>'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/scss:23:in `load'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/scss:23:in `<main>'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...rder-radius(0) \": expected \"{\", was \"!important; }\"\A         on line 120 of helpers.scss\A \A 115: \A 116: .notopborder { border-top: none !important; }\A 117: \A 118: .nobottomborder { border-bottom: none !important; }\A 119: \A 120: .noradius { .border-radius(0) !important; }\A 121: \A 122: .col-padding { padding: 60px; }\A 123: \A 124: .nopadding { padding: 0 !important; }\A 125: "; }

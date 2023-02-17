@@ -1,0 +1,61 @@
+/*
+Error: Invalid CSS after "	filter: progid": expected ";", was ":DXImageTransfo..."
+        on line 1602 of header.scss
+
+1597: 	-o-transition: transform .2s linear;
+1598: 	transition: transform .2s linear;
+1599: }
+1600: 
+1601: .side-header #primary-menu ul > li.sub-menu:hover > a:after {
+1602: 	filter: progid:DXImageTransform.Microsoft@include BasicImage(rotation=1);
+1603: 	-webkit-transform: rotate(90deg);
+1604: 	-moz-transform: rotate(90deg);
+1605: 	-ms-transform: rotate(90deg);
+1606: 	-o-transform: rotate(90deg);
+1607: 	transform: rotate(90deg);
+
+Backtrace:
+header.scss:1602
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:777:in `block in try_declaration'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1165:in `rethrow'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:782:in `try_declaration'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:409:in `media_directive'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:222:in `special_directive'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:197:in `directive'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/bin/scss:13:in `<top (required)>'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/scss:23:in `load'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/scss:23:in `<main>'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/danlinn/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"	filter: progid\": expected \";\", was \":DXImageTransfo...\"\A         on line 1602 of header.scss\A \A 1597: 	-o-transition: transform .2s linear;\A 1598: 	transition: transform .2s linear;\A 1599: }\A 1600: \A 1601: .side-header #primary-menu ul > li.sub-menu:hover > a:after {\A 1602: 	filter: progid:DXImageTransform.Microsoft@include BasicImage(rotation=1);\A 1603: 	-webkit-transform: rotate(90deg);\A 1604: 	-moz-transform: rotate(90deg);\A 1605: 	-ms-transform: rotate(90deg);\A 1606: 	-o-transform: rotate(90deg);\A 1607: 	transform: rotate(90deg);"; }
